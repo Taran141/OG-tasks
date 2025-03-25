@@ -1,3 +1,5 @@
+
+//chcek if number is prime or not
 let num = 9;
 let count = 0;
 
