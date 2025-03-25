@@ -4,7 +4,7 @@ let num = 9;
 let count = 0;
 
 if(num<=1){
-    console.log("number is prime");
+    console.log("number is  not a prime");
 }
 else{
     for(let i=2;i<=num ; i++ ){

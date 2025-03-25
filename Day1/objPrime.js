@@ -12,7 +12,7 @@ let obj = {
 function prime (num) {
      let count = 0;
     if(num<=1){
-   return true;
+   return false;
 }
 else{
     for(let i=2;i<=num ; i++ ){
