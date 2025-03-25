@@ -7,18 +7,12 @@ let obj = {
     d:4,
     e:5
 }
-// for (let ele in obj){
-//     if(obj[ele]<=2|| obj[ele]){
-    
 
-//     }
-// }
 
 function prime (num) {
-    
-    let count=0;
+     let count = 0;
     if(num<=1){
-    console.log("true");
+   return true;
 }
 else{
     for(let i=2;i<=num ; i++ ){
@@ -27,11 +21,11 @@ else{
         }
     }
     if(count>=2){
-        console.log("false")
+        return false;
     }
     else{
-        console.log("true")
-    }
+        return true;
+   }
 }};
 for(let ele in obj){
     let v = prime(obj[ele]);
@@ -39,3 +33,4 @@ for(let ele in obj){
         console.log(obj[ele])
     }
 }
+
