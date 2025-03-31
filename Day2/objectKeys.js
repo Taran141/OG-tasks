@@ -1,9 +1,16 @@
 const object1 = {
-    a: "somestring",
-    b: 42,
-    c: false,
+    1: "somestring",
+    2: 42,
+    3: false,
   };
-  
-for(let key in object1){
-    console.log(key);
+ 
+ function object (object1){
+  let arr=[]
+    for(let key in object1){
+      arr.push(key)
+    // console.log(key);
+    
+    }
+    return arr;
 }
+console.log(object(object1));

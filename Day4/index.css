@@ -1,0 +1,174 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper Container */
+.wrapper {
+    max-width: 1320px;
+    padding: 20px;
+    margin: auto;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .btn-div {
+    display: flex;
+    gap: 15px;
+}
+
+/* Forms (Sign-up & Login) */
+.form {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.form h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form input:focus {
+    border: 1px solid #3f87a6;
+    outline: none;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 50px;
+    border: 1px solid blue;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background: white;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px rgba(215, 162, 92, 0.5);
+    background: #f69d3c;
+    color: white;
+}
+
+.btn-large {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background: blueviolet;
+    color: white;
+}
+
+.btn-large:hover {
+    border: #f69d3c 1px solid;
+    box-shadow: 0 0 5px rgba(255, 136, 0, 0.5);
+}
+
+/* Logout Button */
+#logout-btn {
+    display: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout-btn:hover {
+    background-color: darkred;
+}
+
+/* Todo List Section */
+#todo-section {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.todoValue {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todoList {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+.todoList li {
+    list-style: none;
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border-left: 5px solid #3f87a6;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.todoList li:hover {
+    background: #f69d3c;
+    color: white;
+    border-left: 5px solid darkorange;
+}
+
+/* Centering the forms */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

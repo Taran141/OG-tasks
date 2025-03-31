@@ -9,7 +9,7 @@ const data = [
     { p: { q: 8 }, s: [2, 3, 4] }
     ];
 
-const sum = data.map((obj)=>
+const sum = data.map((obj)=> 
     Object.values(obj)
 .flatMap((obj)=>obj)
 .filter(value =>typeof value === "number")
