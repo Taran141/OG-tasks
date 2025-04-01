@@ -1,4 +1,4 @@
-/// Show/hide forms
+
 function showForm(id) {
     document.getElementById(id).style.display = "flex";
 }
@@ -6,7 +6,7 @@ function hideForm(id) {
     document.getElementById(id).style.display = "none";
 }
 
-// Save and retrieve users from localStorage
+// Save and get user from localStorage
 function saveUser(user) {
     let users = JSON.parse(localStorage.getItem("users")) || [];
     users.push(user);
@@ -68,7 +68,7 @@ function handleLogout() {
     hideElement("todo-section");
 }
 
-// Show/Hide Sections
+
 function showElement(id) {
     document.getElementById(id).style.display = "block";
 }

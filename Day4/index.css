@@ -1,4 +1,4 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Wrapper Container */
+
 .wrapper {
     max-width: 1320px;
     padding: 20px;
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-/* Navbar */
+
 .navbar {
     width: 100%;
     padding: 20px;
@@ -40,7 +40,6 @@
     gap: 15px;
 }
 
-/* Forms (Sign-up & Login) */
 .form {
     display: none;
     flex-direction: column;
@@ -74,10 +73,10 @@
     outline: none;
 }
 
-/* Buttons */
+
 .btn {
     border-radius: 50px;
-    border: 1px solid blue;
+    border: 1px solid  #f58916;
     padding: 10px 15px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -96,7 +95,7 @@
     border: none;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    background: blueviolet;
+    background:  #84592a;
     color: white;
 }
 
@@ -108,7 +107,7 @@
 /* Logout Button */
 #logout-btn {
     display: none;
-    background-color: red;
+    background-color: rgb(197, 111, 111);
     color: white;
     font-weight: bold;
     padding: 10px 15px;
@@ -117,7 +116,7 @@
 }
 
 #logout-btn:hover {
-    background-color: darkred;
+    background-color: rgb(209, 0, 0);
 }
 
 /* Todo List Section */
@@ -164,7 +163,7 @@
     border-left: 5px solid darkorange;
 }
 
-/* Centering the forms */
+
 .form-container {
     display: flex;
     justify-content: center;

@@ -41,13 +41,14 @@
         </div>
       </form>
 
-      <!-- Todo List Section (Visible after login) -->
+      <!-- Todo List Section -->
       <div id="todo-section" style="display:none;">
         <h2>Your Todo List</h2>
         <form onsubmit="addTodoList(event)">
           <div>
             <input type="text" value="" class="todoValue" placeholder="Enter a task" />
             <button class="btn" type="submit">ADD TODO</button>
+            <button class="btn" onclick="handleLogout()">LOG OUT </button>
           </div>
         </form>
         <div class="todoList"></div>
